@@ -1,7 +1,7 @@
 version: "3"
 services:
   thehive:
-    image: strangebee/thehive:5.2
+    image: strangebee/thehive:latest
     depends_on:
       - cassandra
       - elasticsearch
