@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/BurnyMack/TheHive/blob/main/assets/thehivelogo.png" alt="The Hive">
+</p>
+
 # Auto Deploy Hive Security Platform with Terraform
 
 ## Description
