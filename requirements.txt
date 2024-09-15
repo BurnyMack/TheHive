@@ -1,0 +1,4 @@
+eml_parser==1.17.5
+O365==2.0.36
+pymsteams==0.2.3
+Requests==2.32.3
