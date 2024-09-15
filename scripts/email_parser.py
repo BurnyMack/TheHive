@@ -138,8 +138,8 @@ class EmailAnalyser:
                         }
 
                         #Headers
-                        alert["title"] = f"[Phishing Email] {email["header"]["subject"]}"
-                        alert["sourceRef"] = f"MessageID: {email["header"]["header"]["x-ms-exchange-organization-network-message-id"]}"
+                        alert["title"] = f'[Phishing Email] {email["header"]["subject"]}'
+                        alert["sourceRef"] = f'MessageID: {email["header"]["header"]["x-ms-exchange-organization-network-message-id"]}'
                         observables.append({"dataType":"mail", "data": str(email_refferer),"tags":["mail-refferer"], "ignoreSimilarity":True,"tlp":4})
                         observables.append({"dataType":"mail", "data": email["header"]["from"],"tags":["mail-sender"], "ignoreSimilarity":True, "tlp":4})
                         observables.append({"dataType":"mail", "data": email["header"]["subject"],"tags":["mail-subject"]})
